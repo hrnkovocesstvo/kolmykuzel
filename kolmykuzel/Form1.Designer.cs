@@ -121,6 +121,11 @@
             0,
             0,
             0});
+            this.numericUpDownPol1.Minimum = new decimal(new int[] {
+            100000000,
+            0,
+            0,
+            -2147483648});
             this.numericUpDownPol1.Name = "numericUpDownPol1";
             this.numericUpDownPol1.Size = new System.Drawing.Size(120, 30);
             this.numericUpDownPol1.TabIndex = 10;
@@ -135,6 +140,11 @@
             0,
             0,
             0});
+            this.numericUpDownPol2.Minimum = new decimal(new int[] {
+            100000000,
+            0,
+            0,
+            -2147483648});
             this.numericUpDownPol2.Name = "numericUpDownPol2";
             this.numericUpDownPol2.Size = new System.Drawing.Size(120, 30);
             this.numericUpDownPol2.TabIndex = 11;
@@ -149,6 +159,11 @@
             0,
             0,
             0});
+            this.numericUpDownVys.Minimum = new decimal(new int[] {
+            100000000,
+            0,
+            0,
+            -2147483648});
             this.numericUpDownVys.Name = "numericUpDownVys";
             this.numericUpDownVys.Size = new System.Drawing.Size(120, 30);
             this.numericUpDownVys.TabIndex = 12;
