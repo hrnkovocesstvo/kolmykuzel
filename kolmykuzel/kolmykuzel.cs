@@ -26,6 +26,11 @@ namespace kolmykuzel
             return Math.PI * vyslka / 3.0 * (Math.Pow(polomer1, 2) + polomer2 * polomer2 + polomer1 * polomer2);
         }
 
+        public double povrch()
+        {
+            return Math.PI * Math.Pow(polomer1, 2) + Math.PI * Math.Pow(polomer2, 2) + Math.PI * (polomer1 + polomer2) * Math.Sqrt(Math.Pow(vyslka, 2) + Math.Pow(polomer1 - polomer2, 2));
+        }
+
         public string getjednotka()
         {
             return jednokaa;

@@ -20,7 +20,7 @@ namespace kolmykuzel
         private void buttonPocitej_Click(object sender, EventArgs e)
         {
             kolmykuzel k = new kolmykuzel((double)numericUpDownPol1.Value, (double)numericUpDownPol2.Value, (double)numericUpDownVys.Value, textBoxJ.Text);
-            textBox2.Text = $"oběm: {k.obem()} {k.getjednotka()}³";
+            textBox2.Text = $"oběm: {k.obem()} {k.getjednotka()}³{Environment.NewLine} povrch: {k.povrch()} {k.getjednotka()}² ";
         }
     }
 }
